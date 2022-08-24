@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <style>
+      /* * {
+        color: white;
+        background-color: black;
+      } */
+
+      #icon {
+        margin: 10px;
+        padding: auto;
+      }
+      #icon:hover {
+        color: red;
+      }
+      #new {
+        text-align: center;
+        font-weight: 600;
+        font-size: xx-large;
+      }
+      #forhead {
+        background-color: black;
+        color: white;
+        height: 120px;
+      }
+      #vivo {
+        border-radius: 10px;
+      }
+      #link:hover {
+        color: red;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- Header start -->
+    <header
+      style="height: fit-content"
+      id="forhead"
+      class="text-gray-600 body-font"
+      data-sticky="true"
+    >
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          href="/index.html"
+          cl12ass="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <span
+            style="
+              color: white;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+            "
+            class="ml-3 text-xl"
+          >
+            ＲＥＬＩＣ
+          </span>
+        </a>
+        <nav
+          class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a href="" id="link" class="mr-5 hover:text-gray-900">First Link</a>
+          <a href="" id="link" class="mr-5 hover:text-gray-900">Second Link</a>
+          <a href="" id="link" class="mr-5 hover:text-gray-900">Smartwatch</a>
+          <a href="/Mobil.html" id="link" class="mr-5 hover:text-gray-900"
+            >Mobiles</a
+          >
+        </nav>
+        <!-- <button class="shadow-lg">Subscribe</button>
+
+        Colored shadow -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          id="icon"
+          width="60"
+          height="20"
+          fill="currentColor"
+          class="bi bi-cart"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+          />
+        </svg>
+        <i class="bi bi-person"></i>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          id="icon"
+          width="40"
+          height="20"
+          fill="currentColor"
+          class="bi bi-person"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"
+          />
+        </svg>
+
+        <a href="https://wa.me/6353712695" target="”_blank”">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="icon"
+            width="40"
+            style="text-decoration: none"
+            title="contact me"
+            height="20"
+            fill="currentColor"
+            class="bi bi-telephone"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <!-- header end -->
+<!-- new -->
+    <div style="text-align:center; font-size:large;height: fit-content; background-color:gray;color: white; " class="h-14 bg-gradient-to-r ">All Brands Here</div>
+<!--  -->
+
+<!-- sort -->
+<section class="text-gray-600 body-font">
+    <div class="container px-8 py-24 mx-auto">
+      <div class="flex flex-wrap -m-5 text-center">
+         <div class="p-4 sm:w-1/4 w-1/2">
+         <a href="/Realme.html"> <img src="/Realme.webp" alt=""></a>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+           <a href="/iphone.html"> <img src="/Apple.webp" alt=""></a>
+
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+           <a href="/oppo.html"> <img src="/oppo.webp" alt=""> </a>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+           <a href="/Redmi.html"> <img src="/Redmi.webp" alt=""></a>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+           <a href="/narzo.html"> <img src="/narzo.webp" alt=""> </a>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+           <a href=""> <img src="/infinixwebp.webp" alt=""> </a>
+        </div>
+        <div id="mobil" class="p-4 sm:w-1/4 w-1/2">
+           <a href=""> <img src="/poco.webp" alt=""> </a>
+        </div>
+        <!-- <div id="vivo"  style="border:2px solid black ; height: 150px;padding: 12px;width:240px ;padding: 12px;margin: 14px;" class="p-4 sm:w-1/4 w-1/2">
+            <img  style=" height: 150px;padding: 12px;width:240px ;padding: 12px;margin: 14px;" src="/vivo.jpg" alt="">
+        </div>
+        -->
+      </div>
+    </div>
+  </section>
+  <div></div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"
+  ></script>
+</html>
